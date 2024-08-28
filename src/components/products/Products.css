@@ -1,0 +1,11 @@
+.slideContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.mainContainer > h2 {
+  margin-left: 30px;
+}

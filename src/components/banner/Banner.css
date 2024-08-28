@@ -1,0 +1,44 @@
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 350px;
+  background-color: #f7f7e7;
+  font-family: Zapf Humanist 601;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerImg {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.supplyButton {
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: #2cb67d;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
