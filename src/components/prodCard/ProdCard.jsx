@@ -2,8 +2,6 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 import "./ProdCard.css";
 
-const rating = 5;
-
 function ProdCard(props) {
   return (
     <div className="cardContainer">
